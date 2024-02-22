@@ -1,14 +1,14 @@
 = User Model
-    - name
-    - email
-    - password
-    - country
-    -
+    - name  ✔
+    - email ✔
+    - password ✔
+    - country ✔
+    - Role
     
     => Model Methods: 
-        - encrypt password
-        - Correct password
-        - create token
+        - encrypt password ✔
+        - Correct password ✔
+        - create token ✔
         -  
 
 
@@ -20,5 +20,18 @@
     - 
 
 = Auth
-    - protect
+    - protect ✔
     - 
+
+
+= Security
+    - All Security Middlewares
+
+= Errors
+    - Error Handler
+    - Error Middleware
+    - Custom Error
+
+
+= Utils
+    - CatchAsync

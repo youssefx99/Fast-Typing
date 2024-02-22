@@ -6,6 +6,8 @@ const app = express();
 const DataBaseStr = process.env.DATABASE;
 connect(DataBaseStr);
 
+app.use(express.json());
+
 app.use("/", (req, res) => {
   res.send("hello world");
 });
