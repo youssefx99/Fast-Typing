@@ -1,0 +1,24 @@
+= User Model
+    - name
+    - email
+    - password
+    - country
+    -
+    
+    => Model Methods: 
+        - encrypt password
+        - Correct password
+        - create token
+        -  
+
+
+= Controllers: (user)
+    - sign Up 
+    - login
+    - sign Out
+    - forget password
+    - 
+
+= Auth
+    - protect
+    - 
